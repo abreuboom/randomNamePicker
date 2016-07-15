@@ -6,7 +6,7 @@ body {
     background-image: url("http://d352ltojookjzf.cloudfront.net/wp-content/uploads/2013/12/15-icon-patterns.jpg");
     background-repeat: repeat;
     color: white;
-    animation: animatedBackground 30s linear infinite;
+    animation: animatedBackground 60s linear infinite;
     align-content: center;
     position: relative;
     overflow: hidden;
@@ -14,7 +14,7 @@ body {
 
 @keyframes animatedBackground {
 	from { background-position: 0 0; }
-	to { background-position: 100% 70%; }
+	to { background-position: 200% 140%; }
 }
 
 h1 {
